@@ -25,26 +25,26 @@
   <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
-  <icon src="icon.png"/>
+  <icon src="img/logo.png"/>
   <platform name="android">
-    <icon src="www/res/icon/android/logo.png" density="ldpi"/>
-    <icon src="www/res/icon/android/logo.png" density="mdpi"/>
-    <icon src="www/res/icon/android/logo.png" density="hdpi"/>
-    <icon src="www/res/icon/android/logo.png" density="xhdpi"/>
-    <icon src="www/res/icon/android/logo.png" density="xxhdpi"/>
-    <icon src="www/res/icon/android/logo.png" density="xxxhdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="land-ldpi"/>
-    <splash src="www/res/screen/android/logo.png" density="land-mdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="land-hdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="land-xhdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="land-xxhdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="land-xxxhdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="port-ldpi"/>
-    <splash src="www/res/screen/android/logo.png" density="port-mdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="port-hdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="port-xhdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="port-xxhdpi"/>
-    <splash src="www/res/screen/android/logo.png" density="port-xxxhdpi"/>
+    <icon src="res/icon/android/logo.png" platform="android" density="ldpi"/>
+    <icon src="res/icon/android/logo.png" platform="android" density="mdpi"/>
+    <icon src="res/icon/android/logo.png" platform="android" density="hdpi"/>
+    <icon src="res/icon/android/logo.png" platform="android" density="xhdpi"/>
+    <icon src="res/icon/android/logo.png" platform="android" density="xxhdpi"/>
+    <icon src="res/icon/android/logo.png" platform="android" density="xxxhdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="land-ldpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="land-mdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="land-hdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="land-xhdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="land-xxhdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="land-xxxhdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="port-ldpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="port-mdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="port-hdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="port-xhdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="port-xxhdpi"/>
+    <splash src="res/screen/android/logo.png" platform="android" density="port-xxxhdpi"/>
   </platform>
   <platform name="ios">
    <icon src="www/res/icon/ios/logo.png" platform="ios" width="57" height="57"/>
