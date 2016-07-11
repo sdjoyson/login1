@@ -56,10 +56,17 @@
                 success:function(data){
 
                        // $('#success').html(data);
-                       alert(JSON.stringify(data));
-                       document.getElementById('name').value = "";
-                       document.getElementById('word').value = "";
-                       $("#name").focus();
+                        alert(JSON.stringify(data));
+                       if(data == 'Login success')
+                       {
+                           window.location.replace('./pages/home.html');
+                       }
+                       else
+                       {
+                           document.getElementById('name').value = "";
+                           document.getElementById('word').value = "";
+                           $("#name").focus();
+                       }
                 }
              })
 
