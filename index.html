@@ -63,6 +63,7 @@
                        }
                        else
                        {
+                           $('#error').html('Incorrect username and password');
                            document.getElementById('name').value = "";
                            document.getElementById('word').value = "";
                            $("#name").focus();
@@ -90,7 +91,8 @@
                 <input type="password"   class="form-control" id="word" placeholder="Password">
               </div>
               <button type="button"  id="button" class="btn btn-default">Login</button>
-            </form>
+            </form><br><br>
+            <div id="error"></div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
